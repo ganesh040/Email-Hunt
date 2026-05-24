@@ -144,7 +144,7 @@ export default function App() {
               <label className="block text-xs font-mono text-white/40 mb-1.5">First name</label>
               <input
                 type="text"
-                placeholder="Marzhan"
+                placeholder="Ganesh"
                 value={form.first_name}
                 onChange={e => setForm({ ...form, first_name: e.target.value })}
                 className="w-full px-3 py-2.5 rounded-xl border border-white/10 bg-white/5 text-white placeholder-white/20 text-sm focus:outline-none focus:border-indigo-500/50 focus:bg-white/8 transition-all"
@@ -154,7 +154,7 @@ export default function App() {
               <label className="block text-xs font-mono text-white/40 mb-1.5">Last name</label>
               <input
                 type="text"
-                placeholder="Anglamas"
+                placeholder="Gudibandi"
                 value={form.last_name}
                 onChange={e => setForm({ ...form, last_name: e.target.value })}
                 className="w-full px-3 py-2.5 rounded-xl border border-white/10 bg-white/5 text-white placeholder-white/20 text-sm focus:outline-none focus:border-indigo-500/50 transition-all"
@@ -166,7 +166,7 @@ export default function App() {
             <label className="block text-xs font-mono text-white/40 mb-1.5">Company domain</label>
             <input
               type="text"
-              placeholder="wise.com"
+              placeholder="domain.com"
               value={form.domain}
               onChange={e => setForm({ ...form, domain: e.target.value })}
               className="w-full px-3 py-2.5 rounded-xl border border-white/10 bg-white/5 text-white placeholder-white/20 text-sm focus:outline-none focus:border-indigo-500/50 transition-all"
